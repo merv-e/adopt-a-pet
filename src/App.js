@@ -16,6 +16,7 @@ const appRouter = createBrowserRouter(
       <Route index element={<HomePage />} />
       <Route path=":type" element={ < HomePage />} /> {/* I AM UNSURE ABOUT THIS */}
       <Route path=":type/:id" element={ < PetDetailsPage />} /> 
+      <Route path="search" element={<SearchPage />} />
     </Route>
   )
 );
